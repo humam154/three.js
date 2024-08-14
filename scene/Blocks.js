@@ -1,6 +1,6 @@
 import { BoxGeometry, Euler, Mesh, Vector3 } from "three";
 import * as oceanMaterials from "../materials/OceanMaterial.js";
-
+import { add } from '../submarine3DModel/scene.gltf'
 export let blocks = [];
 
 function CreateBox(postion, rotation, scale)
